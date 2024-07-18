@@ -78,3 +78,31 @@ class Solution:
                 dist[i] = -1
 
         return dist
+
+# source:https://leetcode.cn/problems/single-element-in-a-sorted-array/description/
+
+class Solution:
+    def singleNonDuplicate(self, nums: List[int]) -> int:
+        i = 0
+        j = len(nums) - 1
+        if i == j:
+            return nums[0]
+
+        while i < j:
+            mid = (i + j) // 2
+
+            if mid != i and mid != j:
+                if nums[mid] == nums[mid - 1]:
+                    if (mid - i + 1) % 2 == 0:
+                        i = mid + 1
+                    else:
+                        j = mid - 2
+                elif nums[mid] == nums[mid + 1]:
+                    if (j - mid + 1) % 2 == 0:
+                        j = mid - 1
+                    else:
+                        i = mid + 2
+                else:
+                    return nums[mid]
+        return nums[i]
+
