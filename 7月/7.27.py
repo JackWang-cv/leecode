@@ -76,3 +76,5 @@ class TopVotedCandidate:
         # 也可以使用内置的二分查找的包来确定 l
         # l = bisect.bisect(self.times, t) - 1
         return self.tops[l]
+    
+
