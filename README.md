@@ -7,4 +7,7 @@
 #      二分需注意边界以及循环不变量 贪心则是当寻求解决办法最贪的路线，需要配合题目。这需要锻炼。
 
 # 8月：滑动窗口+贪心
+# 代表
+# https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/
+# 
 
