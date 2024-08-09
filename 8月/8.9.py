@@ -57,3 +57,22 @@ class Solution:
         
         return "" if res[0] == float("inf") else s[res[1]:res[2] + 1]
 
+# source: https://leetcode.cn/problems/count-the-number-of-good-subarrays/
+class Solution:
+    def countGood(self, nums: List[int], k: int) -> int:
+        j = i = 0
+        res = 0
+        d = {}
+        total = 0
+        while j < len(nums):
+            # 字典优化
+            d[nums[j]] = d.get(nums[j], 0)+1
+
+            total += d[nums[j]] - 1
+            while total >= k:
+                res += len(nums) - j
+                d[nums[i]] -= 1
+                total -= d.get(nums[i], 0)
+                i += 1
+            j += 1
+        return res
