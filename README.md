@@ -10,4 +10,5 @@
 # 代表
 # https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/
 # https://leetcode.cn/problems/minimum-window-substring/description/
+# https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/description/
 
