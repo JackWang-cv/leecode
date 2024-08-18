@@ -29,3 +29,20 @@ class Solution:
                 else:
                     res.append(0)
         return res
+
+class Solution:
+    def countAndSay(self, n: int) -> str:
+        if n==1:
+            return '1'
+        res = self.countAndSay(n-1)
+        i = 0
+        new_res = ''
+        j = 0
+        while j < len(res):
+            last = res[i]
+            while j < len(res) and last == res[j] :
+                j += 1
+            temp = (j-i)
+            new_res += str(temp)+res[i]
+            i = j 
+        return new_res
