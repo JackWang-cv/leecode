@@ -12,4 +12,7 @@
 # https://leetcode.cn/problems/minimum-window-substring/description/
 # https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/description/
 # https://leetcode.cn/problems/find-the-longest-equal-subarray/description/
+#      滑窗使用双指针，j先动，而i在条件不满足时动。
 
+# 9月：单调栈 + 搜索 + 位运算
+# 代表
