@@ -21,3 +21,7 @@
 # https://leetcode.cn/problems/largest-rectangle-in-histogram/
 #      拿什么取压栈
 # https://leetcode.cn/problems/bus-routes/description/
+
+# 10月：位运算
+# 代表
+# https://leetcode.cn/problems/find-xor-beauty-of-array/ 
