@@ -1,4 +1,7 @@
 # source:https://leetcode.cn/submissions/detail/579855686/ 栈
+from typing import List
+
+
 class Solution:
     def buildArray(self, target: List[int], n: int) -> List[str]:
         i = 0
