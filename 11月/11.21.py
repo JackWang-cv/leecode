@@ -25,6 +25,7 @@ class Solution:
 
 # source:https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/ 堆
 import heapq
+from typing import Counter, List
 class Solution:
     def halveArray(self, nums: List[int]) -> int:
         ori = 0
@@ -58,7 +59,7 @@ class Solution:
                 ans %= MOD
         return ans
 
-# source:https://leetcode.cn/problems/delete-and-earn/
+# source:https://leetcode.cn/problems/delete-and-earn/ dp
 class Solution:
     def deleteAndEarn(self, nums: List[int]) -> int:
         dic = Counter(nums)
