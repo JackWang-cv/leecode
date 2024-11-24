@@ -28,3 +28,5 @@
 # https://leetcode.cn/problems/binary-subarrays-with-sum/description/
 
 # 11月：差分，栈，队列，堆等常见数据结构 + 动态规划基础
+# https://leetcode.cn/problems/edit-distance/ 最长公共子序列变形
+# 
