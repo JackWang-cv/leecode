@@ -1,4 +1,9 @@
 # source:https://leetcode.cn/problems/alternating-groups-ii/description/ 滑窗
+from collections import defaultdict
+import heapq
+from typing import List
+
+
 class Solution:
     def numberOfAlternatingGroups(self, colors: List[int], k: int) -> int:
         # 判断相邻两个是否相等
