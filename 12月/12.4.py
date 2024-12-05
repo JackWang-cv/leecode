@@ -1,4 +1,7 @@
 # source:https://leetcode.cn/problems/number-of-valid-move-combinations-on-chessboard/ dfs 逻辑
+from typing import List, Tuple
+
+
 class Solution:
     # 判断两个移动是否合法，即不存在同一时刻两个棋子重叠的情况
     def is_valid(self, move1: Tuple[int, int, int, int, int], move2: Tuple[int, int, int, int, int]) -> bool:
