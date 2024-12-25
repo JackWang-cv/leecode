@@ -1,4 +1,5 @@
 # source:https://leetcode.cn/problems/exam-room/ 有序集合+堆
+from collections import defaultdict
 from sortedcontainers import SortedList
 class ExamRoom:
 
