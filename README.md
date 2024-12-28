@@ -34,3 +34,4 @@
 # 代表
 # https://leetcode.cn/problems/accounts-merge/description/ 
 # https://leetcode.cn/problems/exam-room/
+# https://leetcode.cn/problems/maximize-score-of-numbers-in-ranges/
